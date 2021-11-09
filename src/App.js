@@ -8,6 +8,7 @@ function App() {
       <div className="container">
         <Header />
         <Search />
+        <p className="Footer">Coded by Lin</p>
       </div>
     </div>
   );

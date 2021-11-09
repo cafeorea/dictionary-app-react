@@ -1,5 +1,9 @@
-.SearchBar {
+.SearchBar section {
   background-color: #ececec;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 8px 8px rgb(0 0 0 / 10%);
 }
 
 h1 {

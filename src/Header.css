@@ -1,7 +1,12 @@
 .navigation {
   background-color: #9fd3c7 !important;
+
+  border-radius: 4px;
+  box-shadow: 0 3px 3px rgb(0 0 0 / 10%);
 }
 .navtext {
   color: #142d4c !important;
-  font-size: 20px;
+  font-size: 35px;
+  margin: 0px;
+  padding: 0px;
 }

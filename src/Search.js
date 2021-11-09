@@ -25,14 +25,17 @@ export default function Search() {
 
   return (
     <div className="SearchBar">
-      <h1>Enter a word...</h1>
-      <form onSubmit={dictionarySearch}>
-        <input
-          type="search"
-          className="form-control form-control-lg"
-          onChange={handleSearchTerm}
-        />
-      </form>
+      <section>
+        <h1>English Dictionary</h1>
+        <form onSubmit={dictionarySearch}>
+          <input
+            type="search"
+            className="form-control form-control-lg"
+            placeholder="Search for a word..."
+            onChange={handleSearchTerm}
+          />
+        </form>
+      </section>
       <Results results={results} />
     </div>
   );
