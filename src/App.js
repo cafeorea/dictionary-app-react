@@ -8,7 +8,16 @@ function App() {
       <div className="container">
         <Header />
         <Search />
-        <p className="Footer">Coded by Lin</p>
+        <p className="Footer">
+          Coded by{" "}
+          <a
+            href="https://github.com/lincodes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Lin
+          </a>
+        </p>
       </div>
     </div>
   );

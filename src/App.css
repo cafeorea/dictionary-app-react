@@ -1,3 +1,9 @@
 .Footer {
   text-align: center;
+  color: #385170;
+}
+
+a {
+  color: #385170;
+  text-decoration: none;
 }
